@@ -12,12 +12,12 @@ router.get('/home', (req, res, next)=>{
   console.log('home');
 });
 
-router.get('/chickens', (req, res, next)=>{
+router.get('/see-our-chickens', (req, res, next)=>{
   res.sendFile(__dirname + '/chickens.html');
     console.log('chickens');
 });
 
-router.get('/eggs', (req, res, next)=>{
+router.get('/see-our-eggs', (req, res, next)=>{
   res.sendFile(__dirname + '/eggs.html');
     console.log('eggs');
 });
