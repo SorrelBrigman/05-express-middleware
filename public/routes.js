@@ -24,6 +24,7 @@ router.get('/see-our-eggs', (req, res, next)=>{
 
 router.get((req, res, next)=>{
   res.send(`page not found, try chickens or eggs`);
+  console.log(`other route`)
 })
 
 
